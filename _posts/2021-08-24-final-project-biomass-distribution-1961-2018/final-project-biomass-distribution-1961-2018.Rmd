@@ -16,7 +16,7 @@ draft: true
 ---
 **INTRODUCTION**
 
-*This project helps in properly visualising as well as undersanding the rapid change in biomass distribution in the last ~60 years. @Bar-On6506* 
+*This project helps in properly visualising as well as understanding the rapid change in biomass distribution in the last ~60 years. @Bar-On6506* 
 *It is a way to fact check all the different headlines that have been going around recently like how humans contribution to the present state of the planet has been more than 83% but by themselves they only make up 0.01% of the life present on earth. @the_guardian_2018 *
 
 *How the population sizes of mammals, fish, birds, reptiles, and amphibians have declined an average of 68% between 1970 and 2016, according to World Wildlife Fund’s (WWF) Living Planet Report 2020. Populations in Latin America and the Caribbean have fared worst, with an average decline of 94%. Global freshwater species have also been disproportionately impacted, declining 84% on average. As an important indicator of planetary health, these drastic species population trends signal a fundamentally broken relationship between humans and the natural world, the consequences of which—as demonstrated by the ongoing COVID-19 pandemic—can be catastrophic. `@wwf_2020` * 
