@@ -1,19 +1,11 @@
 ---
 title: "Biomass Distribution 1961-2018"
-description: |
- DACSS 601 Final Project
-author: Shubham Mishra
-date: 08-23-2021
-categories:
-- Final Project
-- Biomass Distribution 1961-2018
-- bakharia
-output:
-  distill::distill_article:
-    self_contained: false
+author: "bakharia"
+date: "08-23-2021"
+output: pdf_document
 bibliography: the-biomass-distribution-on-earth.bib
-draft: true
 ---
+
 **INTRODUCTION**
 
 *This project helps in properly visualising as well as understanding the rapid change in biomass distribution in the last ~60 years. @Bar-On6506* 
@@ -115,7 +107,7 @@ chicken_all <- chicken_all %>%
   mutate(`Total Biomass (Gt C)` = `Total Biomass (Gt C)` * 1e-1)
 
 tail(chicken_all)
-````
+```
 *For ducks (and Turkey), the data is first loaded to `ducks`(`Turkeys`) from `bird_index` similarly as chickens before. The `ducks_all`(`Turkey_all`) then adds all the different regions together which is then multiplied by their avg weight (as per @ipcc) of 2.7 and then converted into Gt C using `converter`. *
 ```{r}
 ducks <- filter(birds_index, Item == 'Ducks') %>%
@@ -474,3 +466,6 @@ as.data.frame(rbind(cbind(poultry$`Total Biomass (Gt C)`, category = "Poultry"),
 **INFERENCE**
 
 *Though we have been aware of climate change and importance of a healthy Eco-system for more than three decades, the continuing sharp decline in the wild is concerning and proves that we are much farther away from a solution than we think. Though this project focuses on biomass distribution over the years some of the information can be linked with present situations to get verify the current situations. The rapid decline in the wildlife population is also an indication to the rapid deforestation, which has been a rising problem over the years. Besides this, we can also observe how the livestock have almost doubled in population when compared to humans. Today, the global cattle population amounted to about one billion, which makes it increasingly believable than Iceland has more sheep than human (that's close to 3 sheep per person). This also,raises the topic of till what time will earth be able to sustain the growing food demands. Earth Overshoot Day is the date that marks that we have consumed all the resources that our planet is capable of generating in one year. Each year it is calculated by dividing the planet's bio capacity by humanity's ecological footprint and multiplying by 365, for the number of days in a year. In 2021, 29th July was the Earth Overshoot Day. It was first recorded in 1970 and the overshoot day was 29 December.*
+
+**REFERENCES**
+
